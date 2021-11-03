@@ -81,7 +81,7 @@ if($total_records>0){
 
     echo '<ul class="pagination" style="margin:10px auto auto 600px">';
     for($i=1;$i<=$total_page;$i++){
-        echo '<li class="page-item"><a class="page-link" href="test2.php?page='.$i.'">'.$i.'</a></li>';
+        echo '<li class="page-item"><a class="page-link" href="index.php?page='.$i.'">'.$i.'</a></li>';
     }
     echo '</ul>';
 } 
